@@ -12,7 +12,7 @@ I made this Cheat Sheet with no other purpose than help myself in my own learnin
 | Parameter name                             | Description                                                                       |
 | -------------------------------------------| --------------------------------------------------------------------------------- |
 | `-p <port-number>`                         | Scans a port or some of them.  (it scans the first 1.000 ports by default.)       |
-| `-p- <startPort-number, endPort-number>`   | Scans a range of ports. (By default it scans all ports.)                          |
+| `-p- <startPort-number endPort-number>`   | Scans a range of ports. (By default it scans all ports.)                          |
 | `-sV`                                      | Gives information about service's versions.                                       |
 | `-Pn`                                      | Skip the ping test, instead scan everytarget host provided.                       |
 
