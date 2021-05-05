@@ -1,7 +1,7 @@
 # About this Cheat Sheet. (For beginners)
-I made this Cheat Sheet with no other purpose than to help myself in my own learning way. Since I'm not able to remember all these commands or practices, I've resorted to making this file so I can make faster searchs according to my needs. This is a beginner Cheat Sheet and the level corresponds approximately to the eLearnSecurity Junior Penetration Tester Certificate.
+I made this Cheat Sheet with no other purpose than to help myself in my own learning way. Since I'm not able to remember all these commands or practices, I've resorted to making this file so I can make faster searches according to my needs. This is a beginner Cheat Sheet and the level corresponds approximately to the eLearnSecurity Junior Penetration Tester Certificate.
 
-This readme was corrected to a perfect English for [@chetstink](https://twitter.com/chetstink "Twitter")
+This readme was corrected to perfect English by [@chetstink](https://twitter.com/chetstink "Twitter")
 
 You can find me on twitter here. [@0x1_dev](https://twitter.com/0x1_dev "Twitter")
 
@@ -18,7 +18,7 @@ You can find me on twitter here. [@0x1_dev](https://twitter.com/0x1_dev "Twitter
 | `-p <port-number>`                         | Scans a port or some of them.  (it scans the first 1.000 ports by default.)       |
 | `-p- <startPort-number endPort-number>`    | Scans a range of ports. (By default it scans all ports.)                          |
 | `-sV`                                      | Gives information about service's versions.                                       |
-| `-Pn`                                      | Skip the ping test, instead scan everytarget host provided.                       |
+| `-Pn`                                      | Skip the ping test, instead scan every target host provided.                      |
 
 There are a lot more parameters, they can be found [here](https://nmap.org/book/man-briefoptions.html "Nmap parameters.").
 
@@ -27,7 +27,7 @@ There are a lot more parameters, they can be found [here](https://nmap.org/book/
 ## Reverse and Blind Shells
 | Name               | Description                                                                    
 | ------------------ | ------------------------------------------------------------------------- |
-| Reverse Shell      |  Target connects to us. (We set up a listener before they connect to us.)  |
+| Reverse Shell      |  Target connects to us. (We set up a listener before they connect to us.) |
 | Vertical PrivEsc   |  We connect to the target. (The target is the one who set up a listener.) |
 
 
@@ -40,7 +40,7 @@ nc -lvnp <port-number>
 | ------------------ | ------------------------------------------------------------------------- |
 | `-l`               |  Tells netcat that this will be a listener.                               |
 | `-v`               |  Verbose output.                                                          |
-| `-n`               |  Not resolve hostnames or use DNS                                         |
+| `-n`               |  Don't resolve hostnames or use DNS                                       |
 | `-p`               |  The port that we will use                                                |
 
 
@@ -75,8 +75,8 @@ Understanding the two main privilege escalation variants.
 
 | Name         | Description                                                                       |
 | -------------------------- | --------------------------------------------------------------------------------- |
-| Horizontal PrivEsc         |  Used to hijack another user with the same privileges. Some users even if they're not an admin can have SUID files, or if they are allowed to use sudo for different files or programs.   |
-| Vertical PrivEsc | You just take an administrator account. |
+| Horizontal PrivEsc         |  Used to hijack another user with the same privileges. Some users can have SUID files even if they're not an admin, or if they are allowed to use sudo for different files or programs.   |
+| Vertical PrivEsc | You just takes over an administrator accountto have privileges. |
 
 TODO: Make a picture with a diagram.
 
@@ -99,7 +99,7 @@ We can use [LinEnum](https://raw.githubusercontent.com/rebootuser/LinEnum/master
 | Kernel exploits |
 | Escaping VI editor |
 
-There are several ways of executing the script in the target machine. However, creating a Python web server would be the second easiest one in case we can't recreate the script by coping and pasting it.
+There are several ways of executing the script in the target machine. However, creating a Python web server would be the second easiest one in case we can't recreate the script by copying and pasting it.
 
 1. Create a Python web server.
 2. Download the script in the target machine.
