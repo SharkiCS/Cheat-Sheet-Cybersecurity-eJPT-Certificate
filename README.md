@@ -76,7 +76,7 @@ Understanding the two main privilege escalation variants.
 | Name         | Description                                                                       |
 | -------------------------- | --------------------------------------------------------------------------------- |
 | Horizontal PrivEsc         |  Used to hijack another user with the same privileges. Some users can have SUID files even if they're not an admin, or if they are allowed to use sudo for different files or programs.   |
-| Vertical PrivEsc | You just takes over an administrator accountto have privileges. |
+| Vertical PrivEsc | Just takes over an admin account for privileges. |
 
 TODO: Make a picture with a diagram.
 
