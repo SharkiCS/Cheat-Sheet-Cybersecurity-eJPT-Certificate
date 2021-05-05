@@ -1,7 +1,8 @@
 # About this Cheat Sheet. (For beginners)
 I made this Cheat Sheet with no other purpose than to help myself in my own learning way. Since I'm not able to remember all these commands or practices, I've resorted to making this file so I can make faster searchs according to my needs. This is a beginner Cheat Sheet and the level corresponds approximately to the eLearnSecurity Junior Penetration Tester Certificate.
 
-This readme was corrected to a perfect English for [@chetstink](https://twitter.com/chetstink?s=20 "Twitter")
+This readme was corrected to a perfect English for [@chetstink](https://twitter.com/chetstink "Twitter")
+You can find me in twitter here. [@0x1_dev](https://twitter.com/0x1_dev "Twitter")
 
 
 ## Networking.
